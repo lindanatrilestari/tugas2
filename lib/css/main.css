@@ -1,0 +1,619 @@
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto/roboto-thin_0-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-thin_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto/roboto-bold_1-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-bold_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto/roboto-light_0-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-light_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('../fonts/bebas/bebas___-webfont.woff2') format('woff2'),
+         url('../fonts/bebas/bebas___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background: #fff ;
+    font-family: 'robotothin', sans-serif, tahoma, arial;
+    font-size: 13px;
+}
+a {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* header */
+.head {
+	margin-left: 5px;
+	border-bottom: 1px solid #eee;
+}
+
+/*edited linda/ferina*/
+*{
+	padding:0; margin:0;
+}
+
+h2{
+	font-family: 'robotothin';
+	color:#FFF;
+	text-align:left;
+	font-size: 32px;
+	font-weight: 35px;
+	line-height:1.3;
+}
+h1{
+	font-family: 'robotothin';
+	color:#000;
+	text-align:center;
+	margin-top: 40px;
+}
+h1 bold{
+	font-family: 'robotobold';
+	color:#000;
+	text-align:center;
+}
+
+h2 bold{
+	font-family: 'robotobold';
+	color:#fff;
+	font-size: 35px;
+}
+
+h4{
+	font-family: 'robotothin';
+	color:#00cccc;
+}
+h4 bold{
+	font-family: 'robotobold';
+	color:#00cccc;
+}
+h4 bold2{
+	font-family: 'robotobold';
+	color:#cc3366c;
+}
+h5 bold2{
+	font-family: 'robotobold';
+	color:#cc3366c;
+}
+h6 bold2{
+	font-family: 'robotobold';
+	color:#cc3366c;
+}
+
+p{
+	font-family: 'robotothin';
+	color: #747474;
+	/*margin-right: 200px;*/
+}
+small{
+	color: #b69877;
+}
+small a{
+	color: #ddd;
+	text-decoration: none;
+}
+a bold2 {
+	color: #cc3366;
+}
+
+/* Header */
+header{
+	background: #FFFFFF;
+	padding: 0 auto;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+}
+header a{
+	color: #dddddd;
+	text-decoration: none;
+}
+header img{
+	float: left;
+	margin-right: 5px;
+}
+header h1{
+	margin-top:20px;
+	margin-left:80px;
+	font-family: 'Righteous', cursive;
+}
+.head1 {
+	padding: 1%;
+}
+
+.head2 {
+	padding-top: 10px;
+}
+
+/* Content */
+
+.page{
+	background: url(../img/twd-logo.png) top no-repeat;
+	padding-bottom: 65px;
+	padding-top: 35px;
+}
+
+/*section 1*/
+.one{
+	background-image:url(../../assets/images/banner/banner-1.png);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.onepeople {
+	margin-top:65px;
+}
+.one .page-container{
+	position: absolute;
+	bottom: 100px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 150px;
+	max-width: 650px;
+}
+.one .page-container h2{
+	font-size: 4em;
+}
+.one .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.menu_rlinks7 {
+	float: right;
+	text-align: left;
+}
+.menu_rlinks7 i {
+	float: left;
+	color: #fff;
+	font-size: 35px;
+	margin-right: 14px;
+	margin-top: 7px;
+}
+.menu_rlinks7 a {
+	float: left;
+	color: #fff;
+	font-family: 'robotothin', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	padding: 15px 70px 15px 15px;
+	background: rgb(24, 80, 115);
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	white-space: nowrap;
+}
+.menu_rlinks7 a:hover {
+	color: #fff;
+	background: #C0392B;
+}
+.menu_rlinks7 a em {
+	color: #fff;
+	font-size: 15px;
+	font-style: normal;
+	text-transform: none;
+	display: block;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+/*section 2*/
+.two{
+	background-color: #FFFFFF;
+}
+.two .page-container{
+	position: absolute;
+	bottom: 100px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 150px;
+	max-width: 650px;
+}
+.two .page-container h2{
+	font-size: 4em;
+}
+.two .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.menu {
+	position: relative;
+	top: 60px;
+}
+
+.join {
+	font-size: 20px;
+	color: #cc3366;
+	padding-top: 20px;
+}
+
+/*section 3*/
+.three{
+	background-image:url(../../assets/images/banner/banner-02.png);
+	background-size: cover;
+}
+.three .page-container{
+	position: absolute;
+	bottom: 0px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 150px;
+	max-width: 650px;
+}
+.three .page-container h2{
+	font-size: 4em;
+}
+.three .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+
+/*section 4*/
+.four{
+	background-color: #FFFFFF;
+}
+.three .page-container{
+	position: absolute;
+	bottom: 0px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 150px;
+	max-width: 650px;
+}
+.three .page-container h2{
+	font-size: 4em;
+}
+.three .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+
+/*section 5*/
+.five{
+	background-color: #333333;
+}
+.three .page-container{
+	position: absolute;
+	bottom: 0px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 150px;
+	max-width: 650px;
+}
+.three .page-container h2{
+	font-size: 4em;
+}
+.three .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+
+
+/*FORM*/
+.general-form {
+	margin-top:45px;
+}
+.name, .contact {
+	margin-bottom: 3px;
+}
+ .first, .last {
+  /*float: left;*/
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 35px;
+  font-family: Robotolight;
+  font-style: italic;
+  font-size: 13px;
+  background: #000;
+  color: #ffffff;
+}
+
+.last {
+  width: 100%;
+  border-left: 0;
+}
+
+.email, textarea {
+  font-family: Robotolight;
+  font-style: italic;
+  font-size: 13px;
+  height: 35px;
+  width: 100%;
+  line-height: 50px;
+  padding: 0 0 0 10px;
+  border-top: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: #000;
+  color: #ffffff;
+}
+
+textarea {
+  height: 200px;
+}
+
+footer input[type=submit] {
+  font-family: Robotobold;
+  font-size: 16px;
+  height: 50px;
+  background: #3366ff;
+  border-radius: 5px;
+  border: 0;
+  margin: 7px 0;
+  color: white;
+  padding: 0 40px 0 40px;
+  border-bottom: 5px solid #0033cc;
+  transition: all linear .2s;
+}
+footer input[type=submit]:hover {
+  background: #0033cc;
+}
+footer input[type=submit]:focus {
+  outline: none;
+}
+
+.sec1descripsi {
+	font-family: 'Roboto';
+	color:#FFF;
+	text-align:center;
+}
+.title {
+	font-family:'Robotobold';
+	font-size:30px;
+	color: #F5AB35;
+	text-align:left;
+	margin-top:50px;
+}
+.subtitle {
+	font-family: 'Robotobold';
+    font-size: 18px;
+	text-align:left;
+	color:#cccccc;
+	/*margin-top:25px;*/
+}
+.subtitle-des {
+	font-family: 'Robotothin';
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 300;
+	line-height:1.3;
+}
+.akademiklain {
+	font-family: 'Robotolight';
+	font-size:18px;
+	color: #666666;
+	text-align:center;
+	line-height: 130%;
+}
+.manfaat {
+	font-family: 'Roboto';
+	font-size:30px;
+	color:#000;
+}
+.siapa {
+	font-family: 'Robotobold';
+	font-size:30px;
+	color:#fff;
+}
+.produk {
+	font-family: 'Robotobold';
+	font-size:30px;
+	color:#000;
+}
+.kontakkami {
+	font-family: 'Robotobold';
+	font-size:30px;
+	color:#fff;
+}
+.penjelasan-siapa {
+	font-family: 'Robotothin';
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+	line-height:130%;
+}
+.penjelasan-siapa1 {
+	font-family: 'Robotothin';
+	font-size:18px;
+	color:#fff;
+	margin-top:100px;
+	line-height:130%;
+}
+.penjelasan-siapa2 {
+	font-family: 'Robotothin';
+	font-size:24px;
+	color:#fff;
+	margin-top:30px;
+}
+.fb .fb2 {
+	font-family: 'Roboto';
+	font-size:18px;
+	color:#cc3366;
+}
+.deskontak {
+	font-family: 'Robotothin';
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+}
+.imgproduk {
+	text-align:center;
+	margin-top:35px;
+}
+.imgpt {
+	margin-top:70px;
+	margin-left:50px;
+}
+.btn-default {
+	background: #185073;
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 24px;
+    line-height: 1em;
+    text-transform: uppercase ;
+    letter-spacing: normal;
+    border-radius: 0;
+	cursor: pointer;
+}
+.btn-default:hover{
+	background: #F79A22;
+	color:#fff;
+}
+
+
+.atau {
+	margin-top:15px;
+	color:#fff;
+	font-size:18px;
+}
+.atau a{
+	color:#fff;
+}
+
+* {
+  padding:0;
+  margin:0;
+}
+#bizzbar{
+	background:#eb593c;
+	width:100%;
+	/*text-align:right;*/
+	color:#fff;
+	padding:5px;
+	overflow:hidden;
+	z-index:2;
+	/*font-family:Georgia;*/
+	font-size:14px;
+	/*line-height:30px;*/
+	position:relative;
+	bottom:0;
+	left:0;
+	/*box-shadow:0 1px 5px rgba(0,0,0,.7)*/
+}
+
+#bizzbar2{
+  font-size: 80%;
+  text-align: center;
+	width:100%;
+	padding:5px;
+	overflow:hidden;
+	height:130px;
+	z-index:2;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.scroll {
+  color: #fff;
+}
+.fa {
+    display: inline-block;
+     font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*dialog box*/
+
+input[type=submit]:hover {
+border:1px solid #666;
+background:#555;
+color:#fff
+}
+input[type=text] {
+margin-top:5px;
+margin-bottom:20px;
+width:96%;
+border-radius:5px;
+padding:5px;
+}
+.alert-thanks {
+  font-family: 'Robotobold';
+  color: #000;
+}
+.people-alert {
+  margin-left: 10px;
+}
+.glyphicon {
+  color: #fff;
+}
+.title-top{
+	margin-top: 200px;
+}
+@media(max-width: 768px){
+	header{
+		width: 90%;
+		margin:0 auto;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.container{
+		margin-left:0;
+	}
+	img.img100{
+		width:100%;
+	}
+	.menu{
+		text-align:center;
+	}
+	.page{
+		padding-left:0;
+		padding-right: 0;
+		text-align: center;
+	}
+	.title-top{
+		margin-top: 0;
+	}
+	.head1 img, .head2 img{
+		width: 100%;
+	}
+	h1,h2,h3,h4,h5,h6{
+		margin-top:10px !important;
+	}
+	h2{
+		font-size: 20px;
+		text-align: center;
+	}
+	h2 bold{
+		font-size: 24px;
+	}
+	.imgpt{
+		margin:0;
+	}
+	
+	.title, .imgpt, .subtitle, .bizztext{
+		text-align: center;
+	}
+	.title{
+		margin-top:10px;
+	}
+}
